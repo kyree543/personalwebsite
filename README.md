@@ -8,4 +8,7 @@ personal websites features the following pages
 3. resume
 4. contact
 
+## Website preview
+<img src='https://i.imgur.com/cSNpVjT.png' title='website' width='' alt='website' />
+
 this website was created in the 2025 Step program at VSU.
