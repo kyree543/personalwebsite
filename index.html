@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kyree Lott - CS Student</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #1bc01b;
+      color: white;
+      padding: 1rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    .hero {
+      background-color: #44e635;
+      text-align: center;
+    }
+
+    img.profile-pic {
+      width: 200px;
+      border-radius: 50%;
+      display: block;
+      margin-top: 1rem;
+    }
+
+    .project {
+      background: white;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid #2e4d2e;
+    }
+
+    .photo-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .photo-gallery img {
+      width: 250px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .photo-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #29ed29;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Kyree Lott</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Hello, I'm Kyree</h2>
+    <p>A Computer Science student passionate about software engineering, AI, and open-source.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm currently a CS student at Virginia State University with interests in full-stack development, algorithms, and AI. I love solving problems and building real-world applications.</p>
+    <img src="assets/kyree-photo.jpg" alt="Kyree at computer desk" class="profile-pic" />
+  </section>
+
+  <section id="photos">
+    <h2>My Life in Photos</h2>
+    <div class="photo-gallery">
+      <img src="/Users/csstudents/Downloads/PW1/kyree2.webp" alt="Kyree at VSU Hackathon" />
+      <img src="/Users/csstudents/Downloads/PW1/law-tutoring-3.webp" alt="Studying at the library" />
+      <img src="/Users/csstudents/Downloads/PW1/basketball.jpeg" alt="Hiking trip with friends" />
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>My Portfolio Website</h3>
+      <p>A personal site built with HTML, CSS, and JavaScript to showcase my work and resume.</p>
+      <a href="https://github.com/kyreelott/portfolio-site" target="_blank">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>AI Chatbot</h3>
+      <p>A chatbot built using Python and NLP libraries to help users find study resources.</p>
+      <a href="https://github.com/kyreelott/ai-chatbot" target="_blank">View on GitHub</a>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Download my resume below:</p>
+    <a href="assets/kyree-lott-resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume (PDF)</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:Klot0116@students.vsu.edu">Klot0116@students.vsu.edu</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/kyreelott" target="_blank">linkedin.com/in/kyreelott</a></p>
+    <p>Github: <a href= "https://github.com/kyree543"> https://github.com/kyree543</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kyree Lott. Built with HTML & CSS.</p>
+  </footer>
+</body>
+</html>
