@@ -7,3 +7,5 @@ personal websites features the following pages
 2. about me
 3. resume
 4. contact
+
+this website was created in the 2025 Step program at VSU.
